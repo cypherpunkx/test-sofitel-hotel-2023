@@ -50,7 +50,7 @@
 		groupedMap.get(person.getDepartment()).add(person);
 	}
 
-	// Calculate and set Pass Percentage based on Marks
+	// Calculate and set Pass Percentage based on Mark
 	for (Map.Entry<String, List<Person>> entry : groupedMap.entrySet()) {
 		List<Person> departmentRows = entry.getValue();
 		int totalPass = 0;
